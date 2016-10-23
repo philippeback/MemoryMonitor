@@ -1,0 +1,14 @@
+{
+	"category" : "ConfigurationOfMemoryMonitor",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"LastVersionLoad" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"project" ],
+	"name" : "ConfigurationOfMemoryMonitor",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
