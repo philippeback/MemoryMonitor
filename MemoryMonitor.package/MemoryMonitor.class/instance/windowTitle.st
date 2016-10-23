@@ -1,3 +1,4 @@
 configuration
 windowTitle
-	^ 'Manuia Memory Monitor'
+	"Formerly Manuia Memory Monitor - removing that prefix looks nicer"
+	^ 'Memory Monitor'
