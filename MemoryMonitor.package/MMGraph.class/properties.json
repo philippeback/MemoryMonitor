@@ -1,0 +1,16 @@
+{
+	"category" : "MemoryMonitor",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"probes",
+		"tooltip",
+		"toolTipPosition" ],
+	"name" : "MMGraph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

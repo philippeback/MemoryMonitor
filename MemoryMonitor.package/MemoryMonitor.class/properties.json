@@ -1,0 +1,14 @@
+{
+	"category" : "MemoryMonitor",
+	"classinstvars" : [
+		"icon" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"memoryProbe" ],
+	"name" : "MemoryMonitor",
+	"pools" : [
+		 ],
+	"super" : "ActivityMonitor",
+	"type" : "normal" }

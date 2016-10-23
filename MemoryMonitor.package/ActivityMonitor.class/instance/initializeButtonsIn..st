@@ -1,0 +1,2 @@
+hooks
+initializeButtonsIn: aWindow

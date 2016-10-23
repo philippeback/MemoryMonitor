@@ -1,0 +1,3 @@
+ui
+garbageCollect
+	Smalltalk garbageCollect

@@ -1,0 +1,14 @@
+{
+	"category" : "MemoryMonitor",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"prevUsage" ],
+	"name" : "MMMemoryUsageIndicatorMorph",
+	"pools" : [
+		 ],
+	"super" : "StringMorph",
+	"type" : "normal" }

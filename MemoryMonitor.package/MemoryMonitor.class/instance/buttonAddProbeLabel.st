@@ -1,0 +1,3 @@
+ui
+buttonAddProbeLabel
+	^ 'probe class'

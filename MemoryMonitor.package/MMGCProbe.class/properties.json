@@ -1,0 +1,14 @@
+{
+	"category" : "MemoryMonitor",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"oldValue" ],
+	"name" : "MMGCProbe",
+	"pools" : [
+		 ],
+	"super" : "MMProbe",
+	"type" : "normal" }

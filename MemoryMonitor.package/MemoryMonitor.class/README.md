@@ -1,0 +1,1 @@
+Manuia means "To your health!" in Rapanui,  polynesian language used in Easter Island

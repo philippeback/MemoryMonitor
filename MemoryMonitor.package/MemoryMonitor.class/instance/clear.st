@@ -1,0 +1,3 @@
+ui
+clear
+	graph clear

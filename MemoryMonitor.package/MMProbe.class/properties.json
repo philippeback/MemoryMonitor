@@ -1,0 +1,19 @@
+{
+	"category" : "MemoryMonitor",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"values",
+		"probe",
+		"color",
+		"highlightX",
+		"tooltip",
+		"toolTipPosition" ],
+	"name" : "MMProbe",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

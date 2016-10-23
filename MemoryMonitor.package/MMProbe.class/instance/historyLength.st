@@ -1,0 +1,3 @@
+configuration
+historyLength
+	^ 100

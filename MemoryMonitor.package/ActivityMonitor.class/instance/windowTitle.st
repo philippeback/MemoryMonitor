@@ -1,0 +1,3 @@
+hooks
+windowTitle
+	^ 'Activity Monitor'
