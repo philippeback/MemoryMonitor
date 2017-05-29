@@ -1,3 +1,3 @@
 accessing
 color
-	^ Color lightGray
+	^ Color magenta

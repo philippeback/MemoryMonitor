@@ -1,6 +1,6 @@
-as yet unclassified
+accessing
 getToolTipTextFor: position
-	| str index indexX indexY |
+	| str indexX indexY |
 	indexX := (position x * probes first values size / self bounds width) asInteger .
 	indexY := (position y * probes first values size / self bounds height) asInteger .
 	str := WriteStream on: String new.

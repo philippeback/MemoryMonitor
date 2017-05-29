@@ -1,3 +1,3 @@
 ui
 buttonAddProbeLabel
-	^ 'probe class'
+	^ 'Add Probe'

@@ -1,3 +1,4 @@
 accessing-readonly
 currentValue
-	^ probe value: self
+	"Using cull so that we can show constant things if passing blocks"
+	^ probe cull: self

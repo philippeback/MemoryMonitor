@@ -1,0 +1,1 @@
+I am a Morph representing the value of a memory proble as a string

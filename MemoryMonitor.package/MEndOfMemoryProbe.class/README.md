@@ -1,0 +1,1 @@
+I am a proble that gives the currentEndOfMemory

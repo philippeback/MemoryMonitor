@@ -1,0 +1,1 @@
+I am a Morph representing the value of VM memory parameters as text

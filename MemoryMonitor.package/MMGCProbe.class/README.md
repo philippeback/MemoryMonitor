@@ -1,0 +1,1 @@
+Probe looking if a GC occured

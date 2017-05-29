@@ -1,3 +1,3 @@
 ui
 buttonClearLabel
-	^ 'clear'
+	^ 'Clear'

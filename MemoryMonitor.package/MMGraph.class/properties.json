@@ -1,16 +1,15 @@
 {
+	"commentStamp" : "PhilippeBack 5/29/2017 15:33",
+	"super" : "Morph",
 	"category" : "MemoryMonitor",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"probes",
 		"tooltip",
-		"toolTipPosition" ],
+		"toolTipPosition"
+	],
 	"name" : "MMGraph",
-	"pools" : [
-		 ],
-	"super" : "Morph",
-	"type" : "normal" }
+	"type" : "normal"
+}

@@ -1,19 +1,18 @@
 {
+	"commentStamp" : "PhilippeBack 5/29/2017 15:40",
+	"super" : "Object",
 	"category" : "MemoryMonitor",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"values",
 		"probe",
 		"color",
 		"highlightX",
 		"tooltip",
-		"toolTipPosition" ],
+		"toolTipPosition"
+	],
 	"name" : "MMProbe",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

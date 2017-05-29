@@ -1,14 +1,13 @@
 {
-	"category" : "MemoryMonitor",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
-	"instvars" : [
-		"memoryProbe" ],
-	"name" : "MMMemoryBoundsIndicatorMorph",
-	"pools" : [
-		 ],
+	"commentStamp" : "PhilippeBack 5/29/2017 15:37",
 	"super" : "StringMorph",
-	"type" : "normal" }
+	"category" : "MemoryMonitor",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"memoryProbe"
+	],
+	"name" : "MMMemoryBoundsIndicatorMorph",
+	"type" : "normal"
+}

@@ -1,3 +1,0 @@
-hooks
-windowTitle
-	^ 'Activity Monitor'

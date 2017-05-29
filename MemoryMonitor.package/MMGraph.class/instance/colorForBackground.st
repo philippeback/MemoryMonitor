@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 colorForBackground
-	^ Color gray
+	^ UITheme current backgroundColor

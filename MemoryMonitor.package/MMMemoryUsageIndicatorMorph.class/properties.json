@@ -1,14 +1,13 @@
 {
-	"category" : "MemoryMonitor",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
-	"instvars" : [
-		"prevUsage" ],
-	"name" : "MMMemoryUsageIndicatorMorph",
-	"pools" : [
-		 ],
+	"commentStamp" : "PhilippeBack 5/29/2017 15:37",
 	"super" : "StringMorph",
-	"type" : "normal" }
+	"category" : "MemoryMonitor",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"prevUsage"
+	],
+	"name" : "MMMemoryUsageIndicatorMorph",
+	"type" : "normal"
+}

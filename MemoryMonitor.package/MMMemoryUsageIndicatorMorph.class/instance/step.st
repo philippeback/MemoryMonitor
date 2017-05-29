@@ -1,4 +1,4 @@
-as yet unclassified
+stepping and presenter
 step
 	| total used usedNow valueString |
 	total := Smalltalk vm parameterAt: 3.
@@ -12,4 +12,4 @@ step
 							(((total / (1024 * 1024)) asFloat * 100) asInteger / 100.0) asString , 'M = ' , 
 							(((used / total * 100) asInteger / 100.0)
 						* 100) asString , '%'.
-			self contents: 'Memory usage : ', valueString]
+			self contents: 'Memory Usage (from VM parms) : ', valueString]

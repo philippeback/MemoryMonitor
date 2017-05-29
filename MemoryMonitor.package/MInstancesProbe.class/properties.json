@@ -1,14 +1,13 @@
 {
-	"category" : "MemoryMonitor",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
-	"instvars" : [
-		"classToBeProbed" ],
-	"name" : "MInstancesProbe",
-	"pools" : [
-		 ],
+	"commentStamp" : "PhilippeBack 5/29/2017 15:46",
 	"super" : "MMProbe",
-	"type" : "normal" }
+	"category" : "MemoryMonitor",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"classToBeProbed"
+	],
+	"name" : "MInstancesProbe",
+	"type" : "normal"
+}

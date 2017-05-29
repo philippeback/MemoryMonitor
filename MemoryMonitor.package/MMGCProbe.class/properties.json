@@ -1,14 +1,13 @@
 {
-	"category" : "MemoryMonitor",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
-	"instvars" : [
-		"oldValue" ],
-	"name" : "MMGCProbe",
-	"pools" : [
-		 ],
+	"commentStamp" : "PhilippeBack 5/29/2017 15:46",
 	"super" : "MMProbe",
-	"type" : "normal" }
+	"category" : "MemoryMonitor",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"oldValue"
+	],
+	"name" : "MMGCProbe",
+	"type" : "normal"
+}

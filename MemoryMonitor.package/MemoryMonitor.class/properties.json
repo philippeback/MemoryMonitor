@@ -1,14 +1,16 @@
 {
+	"commentStamp" : "PhilippeBack 10/23/2016 11:44",
+	"super" : "Object",
 	"category" : "MemoryMonitor",
 	"classinstvars" : [
-		"icon" ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "PhilippeBack 10/23/2016 11:44",
+		"icon"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
-		"memoryProbe" ],
+		"graph",
+		"memoryProbe"
+	],
 	"name" : "MemoryMonitor",
-	"pools" : [
-		 ],
-	"super" : "ActivityMonitor",
-	"type" : "normal" }
+	"type" : "normal"
+}

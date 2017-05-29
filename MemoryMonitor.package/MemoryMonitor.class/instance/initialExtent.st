@@ -1,3 +1,3 @@
 public
 initialExtent
-	^ 400 @ 150
+	^ 600 @ 450
