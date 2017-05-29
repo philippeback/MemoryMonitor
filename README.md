@@ -1,6 +1,6 @@
 # MemoryMonitor
+
 Pharo Memory Monitor
 
-This is a non working version. Will move to working version for Pharo5.
-
-I wanted to use GitHub instead of SmalltalkHub for this.
+- Adds a tool to the world menu to see how memory evolves.
+- Can tell you how many instances of a given class do exist.
