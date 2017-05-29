@@ -14,7 +14,8 @@ open
 				offsets: (0 @ 0 corner: 0 @ 0)).
 				
 	stringMorph := MMMemoryUsageIndicatorMorph new.
-	stringMorph color: Color pink.
+	
+	"stringMorph color: Color pink."
 	window
 		addMorph: stringMorph
 		fullFrame:
@@ -32,8 +33,8 @@ open
 				fractions: (0 @ 0.7 corner: 0.8 @ 1)
 				offsets: (0 @ 0 corner: 0 @ 0)).
 	
-	stringMorph color: Color green.
-	stringMorph borderStyle: (BorderStyle simple color: Color red; yourself).
+	"stringMorph color: Color green."
+	"stringMorph borderStyle: (BorderStyle simple color: Color red; yourself)."
 	
 	buttonsMorph := self initializeButtons.
 	
@@ -44,7 +45,7 @@ open
 			(LayoutFrame
 				fractions: (0 @ 0.9 corner: 1 @ 1)
 				offsets: (0 @ 0 corner: 0 @ 0)).
-	buttonsMorph borderStyle: (BorderStyle simple color: Color yellow; yourself).
+	buttonsMorph borderStyle: (BorderStyle simple color: Smalltalk ui theme borderColor; yourself).
 	
 	window model: self.
 	window openInWorld.

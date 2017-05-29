@@ -1,16 +1,13 @@
 ui
 initializeButtons
 
-	| clearButton garbageCollectButton addProbeButton panel |
+	| clearButton garbageCollectButton addProbeButton panel removeProbesButton |
 	
 	clearButton := PluggableButtonMorph
 				on: self
 				getState: #buttonOn
 				action: #clear
 				label: #buttonClearLabel.
-				
-	
-	
 
 	garbageCollectButton := PluggableButtonMorph
 				on: self
@@ -23,6 +20,12 @@ initializeButtons
 				getState: #buttonOn
 				action: #addProbe
 				label: #buttonAddProbeLabel.
+				
+	removeProbesButton := PluggableButtonMorph
+				on: self
+				getState: #buttonOn
+				action: #removeProbes
+				label: #buttonRemoveProbesLabel.
 
 	panel := PanelMorph new.
 	panel 
@@ -32,16 +35,6 @@ initializeButtons
 		vResizing: #shrinkWrap.
 
 
-	panel 
-		addMorph: clearButton.
-		"fullFrame: (LayoutFrame fractions: (0 @ 0 corner: 0.3 @ 1) offsets: (0 @ 0 corner: 0 @ 0))."
-
-	panel 
-		addMorph: garbageCollectButton.
-		"fullFrame: (LayoutFrame fractions: (0.3 @ 0 corner: 0.6 @ 1) offsets: (0 @ 0 corner: 0 @ 0))."
-
-	panel
-		addMorph: addProbeButton.
-		"fullFrame: (LayoutFrame fractions: (0.6 @ 0 corner: 1 @ 1) offsets: (0 @ 0 corner: 0 @ 0))."
+	{ clearButton. garbageCollectButton.	addProbeButton. removeProbesButton  } do: [ :morph | panel addMorphBack: morph ].
 
 	^ panel

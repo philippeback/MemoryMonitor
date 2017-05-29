@@ -1,0 +1,4 @@
+ui
+removeProbes
+
+	graph removeProbes

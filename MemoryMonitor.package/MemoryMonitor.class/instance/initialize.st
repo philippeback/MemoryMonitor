@@ -7,5 +7,5 @@ initialize
 	graph 
 		addProbe: MMGCProbe new;
 		addProbe: MEndOfMemoryProbe new;
-		addProbe: MFreeMemoryProbe new;
+		"addProbe: MFreeMemoryProbe new;" "This one is inverse of memoryProbe"
 		addProbe: (memoryProbe := MUsedMemoryProbe new).

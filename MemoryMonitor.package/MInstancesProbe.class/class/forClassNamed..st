@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 forClassNamed: className
 	 ^ (self  
 		probeBlock: [:probe | (Smalltalk at: className asSymbol) instanceCount])

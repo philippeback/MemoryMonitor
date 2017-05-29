@@ -1,0 +1,3 @@
+ui
+buttonRemoveProbesLabel
+	^ 'Remove Probes'
